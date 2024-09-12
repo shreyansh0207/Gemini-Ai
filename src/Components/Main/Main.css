@@ -1,0 +1,142 @@
+.startsection{
+    padding-bottom: 14vh;
+    flex : 1;
+    min-height: 120vh;
+    background-color: #102C57;
+}
+
+.startsection .navbar{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    padding: 20px;
+    background: -webkit-linear-gradient(18deg,#365486,#EB6440);
+}
+
+
+.startsection .navbar img{
+    width: 40px;
+    border-radius: 30%;
+}
+
+.startsection-container{
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.startsection-container  .greet{
+    font-size: 50px ;
+    margin: 42px 9px;
+    font-weight: 400;
+    padding: 20px;
+    color: gray;
+}
+
+.startsection .greet span{
+    
+    background: -webkit-linear-gradient(18deg,#EB6440,#19376D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.startsection .section1{
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+}
+
+.startsection .section{
+    padding: 18px;
+    background-color: #EFF5F5;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.startsection .section img{
+    margin-bottom: 10px;
+    position: absolute;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 40px;
+    margin-left: 130px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.startsection .section1 p{
+    color : black;
+    font-size: 18px;
+}
+
+.startsection .section:hover{
+    background-color: #8294C4;
+  
+}
+
+.bottonsection{
+    max-width: 800px;
+    width: 100%;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    padding: 10px 20px;
+
+}
+
+.bottom{
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 50px;
+    gap:30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECF2FF;
+}
+
+.bottom img{
+    gap: 10px;
+    cursor: pointer;
+    width: 20px;
+
+}
+
+.bottom input{
+    flex :1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.bottom div{
+    display: flex;
+    align-items: center;
+    gap : 10px
+}
+
+.startsection .bottom2{
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+  
+
+}
+
+.nowshowtheresult p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.showtheresulthere img{
+    width: 80px;
+    height: 70px;
+    border-radius: 40%;
+}
